@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/curriculum-v2/static/css/main.bd5c160a.chunk.css",
-    "main.js": "/curriculum-v2/static/js/main.d04ca36e.chunk.js",
-    "main.js.map": "/curriculum-v2/static/js/main.d04ca36e.chunk.js.map",
-    "runtime-main.js": "/curriculum-v2/static/js/runtime-main.bebd0635.js",
-    "runtime-main.js.map": "/curriculum-v2/static/js/runtime-main.bebd0635.js.map",
-    "static/js/2.9ea1fbbe.chunk.js": "/curriculum-v2/static/js/2.9ea1fbbe.chunk.js",
-    "static/js/2.9ea1fbbe.chunk.js.map": "/curriculum-v2/static/js/2.9ea1fbbe.chunk.js.map",
+    "main.js": "/curriculum-v2/static/js/main.640ae15a.chunk.js",
+    "main.js.map": "/curriculum-v2/static/js/main.640ae15a.chunk.js.map",
+    "runtime-main.js": "/curriculum-v2/static/js/runtime-main.5c978752.js",
+    "runtime-main.js.map": "/curriculum-v2/static/js/runtime-main.5c978752.js.map",
+    "static/js/2.e42fe8de.chunk.js": "/curriculum-v2/static/js/2.e42fe8de.chunk.js",
+    "static/js/2.e42fe8de.chunk.js.map": "/curriculum-v2/static/js/2.e42fe8de.chunk.js.map",
     "index.html": "/curriculum-v2/index.html",
     "static/css/main.bd5c160a.chunk.css.map": "/curriculum-v2/static/css/main.bd5c160a.chunk.css.map",
-    "static/js/2.9ea1fbbe.chunk.js.LICENSE.txt": "/curriculum-v2/static/js/2.9ea1fbbe.chunk.js.LICENSE.txt"
+    "static/js/2.e42fe8de.chunk.js.LICENSE.txt": "/curriculum-v2/static/js/2.e42fe8de.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bebd0635.js",
-    "static/js/2.9ea1fbbe.chunk.js",
+    "static/js/runtime-main.5c978752.js",
+    "static/js/2.e42fe8de.chunk.js",
     "static/css/main.bd5c160a.chunk.css",
-    "static/js/main.d04ca36e.chunk.js"
+    "static/js/main.640ae15a.chunk.js"
   ]
 }
