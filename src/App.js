@@ -48,9 +48,9 @@ const App = () => {
       </Sidebar>
 
       <Body>
-        <Education data={userData.education} />
-        <Experience data={userData.experience} />
         <Repository data={userData.repository} />
+        <Experience data={userData.experience} />
+        <Education data={userData.education} />
       </Body>
       
     </Wrapper>
