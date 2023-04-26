@@ -3,7 +3,7 @@ const data = {
   header: {
     name: "Nazareno",
     surname: "Aznar Altamiranda",
-    jobTitle: "Frontend | React Developer Jr.",
+    jobTitle: "Fullstack Developer (React, Node) | Salesforce Developer",
     text: "I stay in constantly learning, ductile and focused in team work. I am looking forward to improve my developer skills with new challenging projects. My main focus is to improve and facilitate the access to technology and information to the population, creating intuitive interfaces and comfortable experiences for any user.",
   }, 
   contact: [
@@ -30,86 +30,63 @@ const data = {
       content:"platzi.com/p/nazarenoalt"
     },
   ],
-  hardSkills: ["Javascript", "HTML & CSS", "React", "MongoDB", "Webpack", "Babel","Git & Github", "NPM", "Bootstrap", "JSON/API managment"],
-  softSkills: ["Assertive communication", "Oratory", "Critical thinking"],
-  hobbies: ["Violoncello", "Running & strength exercises", "Cooking", "Finances & economy", "Cryptocurrencies"],
+  hardSkills: ["React", "Javascript", "Typescript", "GraphQL", "Testing", "Webpack", "Babel","Git & Github","Salesforce", "Apex", "Lightning Web Components", "Aura Framework", "VisualForce"],
+  softSkills: ["Assertive communication", "Oratory", "Critical thinking", "Leadership"],
+  hobbies: ["Violoncello", "Running", "Cooking", "Finances & economy", "Cryptocurrencies"],
   education: [
-    {
-      title: "High School",
-      institute:"UEP N°82 \"Hogar de Bethania\"",
-      description:"Saenz Peña, Chaco",
-      date:"2016",
-    },
     {
       title: "Frontend Development",
       institute:"Platzi",
       description:"Web development school & Javascript School.",
-      date:"Oct. 2020 - present",
+      date:"2020 - 2022",
     },
     {
       title: "English",
       institute:"Platzi",
       description:"English School",
-      date:"Oct. 2020 - present",
+      date:"2020 - 2022",
     }
   ],
   languages: [
     {
-      title:"Spanish",
-      content:"Native",
+      languageName:"Spanish",
+      level:"Native",
     },
     {
-      title:"English",
-      content:"Advance - B2",
+      languageName:"English",
+      level:"Intermediate - B2",
     },
-],
-repository: [
-  {
-    "title": "Bright Academy",
-    "content": "Project for English teacher: Education platform, with login system, posts, token authentication. - Javascript, HTML and CSS, consuming a rest API",
-    "link": "github.com/nazarenoalt/bright-academy",
-  },
-  {
-    "title": "Pokemon Battle",
-    "content": "Pokemon battle simulator - Javascript, HTML and CSS, consuming a rest API.",
-    "link": "github.com/nazarenoalt/pokemon-battle",
-  },
-  {
-    "title": "Piano Virtual SM",
-    "content": "Virtual piano that emulate 'Simon says' game. - Javascript, HTML y CSS.",
-    "link": "github.com/nazarenoalt/piano-virtual-SM",
-  },
-  {
-    "title": "React Shop",
-    "content": "Ecommerce app - React.js, HTML and CSS, Webpack, Babel. Consuming a rest API.",
-    "link": "github.com/nazarenoalt/react-shop",
-  },
-  {
-    "title": "Simply React TODO",
-    "content": "Todo app. - React.js, HTML and CSS, LocalStorage.",
-    "link": "github.com/nazarenoalt/simply-react-todo",
-  },
-  {
-    "title": "Interactive Price Component",
-    "content": "Interactive page to choose product prices. - Javascript, HTML and CSS, consuming a rest API.",
-    "link": "github.com/nazarenoalt/interactive-pricing-component",
-  },
-  {
-    "title": "Crowdfundfing Product Page",
-    "content": "Landing Page with crowdfunding interface. - Javascript, HTML and CSS, consuming a rest API. ",
-    "link": "github.com/nazarenoalt/crowdfunding-product-page",
-  },
-  {
-    "title": "Platziconf Bootstrap",
-    "content": "Bootstrap landing page. - Javascript, HTML, CSS, Bootstrap.",
-    "link": "github.com/nazarenoalt/simply-react-todo",
-  },
-  {
-    "title": "Curriculum (Mobile First)",
-    "content": "First version of my curriculum in landing page format, which becomes a normal CV in desktop resolution. - HTML y CSS.",
-    "link": "github.com/nazarenoalt/curriculum",
-  },
-]
+  ],
+  repository: [
+    {
+      "title": "Bright Academy",
+      "content": "Education platform, with login system, posts, token authentication, made with Javascript vanill. - Javascript, HTML and CSS, consuming a rest API",
+      "link": "github.com/nazarenoalt/bright-academy",
+    },
+    {
+      "title": "E-Shop",
+      "content": "Ecommerce app - React.js, HTML and CSS, Webpack, Babel. Consuming a rest API.",
+      "link": "github.com/nazarenoalt/react-shop",
+    },
+    {
+      "title": "Crowdfunding Product Page",
+      "content": "Landing Page with crowdfunding interface. - Javascript, HTML and CSS, consuming a rest API. ",
+      "link": "github.com/nazarenoalt/crowdfunding-product-page",
+    },
+    {
+      "title": "This curriculum",
+      "content": "What you are viewing is a curriculum made completely with React, with the ability to convert to PDF.",
+      "link": "github.com/nazarenoalt/interactive-pricing-component",
+    },
+  ],
+  experience: [
+    {
+      title: "Fullstack Developer (Salesforce)",
+      place: "Globant",
+      startDate: "Apr. 2022 - Present",
+      description: "I developed skills in customer service working directly with clients. I gained experience in both frontend and backend tools. Additionally, I played a key role in revamping the platform's design and mentoring. Finally, I effectively managed projects and collaborated with the team using the scrum methodology."
+    },
+  ],
 }
 
 export default data

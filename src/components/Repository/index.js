@@ -4,7 +4,7 @@ import { Wrapper } from './Repository.style'
 const Repository = ({ data }) => {
   return (
     <Wrapper>
-        <h2 className="title-separator">Projects and experience</h2>
+        <h2 className="title-separator">Projects</h2>
         {data.map(item => (
           <li key={item.title} className="Repository__li">
             <h3 className="project-title">{item.title}</h3>
