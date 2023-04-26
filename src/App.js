@@ -9,11 +9,11 @@ import HeaderProfile from './components/HeaderProfile'
 import Education from './components/Education'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import Languages from './components/Languages'
+import Experience from './components/Experience'
 import Repository from './components/Repository'
 import SocialNetworks from './components/SocialNetworks'
 import Skills from './components/Skills'
-import Hobbies from './components/Hobbies'
+import LanguagesSidebar from './components/LanguagesSidebar'
 import PrintPdfButton from "./components/PrintPdfButton"
 import SeparatorLine from "./components/SeparatorLine"
 // Styles
@@ -43,13 +43,13 @@ const App = () => {
         <SeparatorLine /> 
 
         <Skills hardSkills={userData.hardSkills} softSkills={userData.softSkills} />
-        <Hobbies hobbies={userData.hobbies} />
+        <LanguagesSidebar languages={userData.languages} />
         <Footer />
       </Sidebar>
 
       <Body>
         <Education data={userData.education} />
-        <Languages data={userData.languages} />
+        <Experience data={userData.experience} />
         <Repository data={userData.repository} />
       </Body>
       

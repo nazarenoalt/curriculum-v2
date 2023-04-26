@@ -14,17 +14,6 @@ const Skills = ({ hardSkills, softSkills }) => {
         ))}
       </ul>
     </div>
-      
-    <div className="item">
-      <h2>Soft Skills</h2>
-      <ul>
-        {softSkills.map(item => (
-          <li key={item}>
-            <span>{item}</span>
-          </li>
-        ))}
-      </ul>
-    </div>
     </Wrapper>
   )
 }
