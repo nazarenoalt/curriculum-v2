@@ -18,4 +18,8 @@ export const Wrapper = styled.div`
   h3 {
     color: var(--body-secondary-color);
   }
+  
+  .child-gap {
+    margin-bottom: 5rem;
+  }
 `

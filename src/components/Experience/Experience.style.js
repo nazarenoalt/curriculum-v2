@@ -14,6 +14,7 @@ export const Wrapper = styled.div`
 
   .project-description {
     margin-top: .5rem;
+    padding-left: 1.5rem;
   }
 
   .project-description a {
@@ -21,5 +22,9 @@ export const Wrapper = styled.div`
     text-decoration: underline;
   }
 
+  .experience-list {
+    margin-bottom: .75rem;
+    list-style-type: disc;
+  }
   margin-bottom: 3rem;
 `

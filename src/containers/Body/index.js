@@ -4,7 +4,11 @@ import { Wrapper } from './Body.style'
 const Body = ({ children }) => {
   return (
     <Wrapper>
-        {children}
+        {children.map(child => {
+          return <div className='child-gap'>
+            {child}
+          </div>
+        })}
     </Wrapper>
   )
 }
