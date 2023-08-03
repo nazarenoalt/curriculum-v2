@@ -72,6 +72,11 @@ const data = {
       "date": "August 2022",
       "endDate": null
     },
+    {
+      "title": "Scrum Fundamentals Certified Exam - SCRUMStudy",
+      "date": "June 2022",
+      "endDate": null
+    },
   ],
   experience: [
     {
