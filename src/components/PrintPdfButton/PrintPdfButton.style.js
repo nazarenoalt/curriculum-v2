@@ -15,7 +15,7 @@ export const Button = styled.button`
   right: 10px;
   transition: all .3s;
   cursor: pointer;
-
+  opacity: ${(props) => props.opacity ? 0 : 1};
   :hover {
     filter: brightness(0.9)
   }

@@ -10,7 +10,7 @@ import Education from './components/Education'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Experience from './components/Experience'
-import Repository from './components/Repository'
+import Certifications from './components/Certifications'
 import SocialNetworks from './components/SocialNetworks'
 import Skills from './components/Skills'
 import LanguagesSidebar from './components/LanguagesSidebar'
@@ -48,8 +48,8 @@ const App = () => {
       </Sidebar>
 
       <Body>
-        <Repository data={userData.repository} />
         <Experience data={userData.experience} />
+        <Certifications data={userData.certifications} />
         <Education data={userData.education} />
       </Body>
       

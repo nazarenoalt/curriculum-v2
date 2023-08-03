@@ -1,14 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import html2pdf from 'html2pdf.js'
 import { Wrapper, Button } from './PrintPdfButton.style'
 
 const PrintPdfButton = () => {
+  const [isHidden, setIsHidden] = useState(false);
 
-  const handleClick = () => {
+  const handleClick = async () => {
+    // Hide button
+    setIsHidden(true);
+
+    // PDF Process Settings
     const element = document.querySelector("#app")
     const width = element.offsetWidth
     const height = Math.max(element.scrollHeight, element.offsetHeight)
-    console.log(height)
     // options for PDF output
     const opt = {
       image: { type: 'jpeg', quality: 1},
@@ -24,12 +28,17 @@ const PrintPdfButton = () => {
         format: [height, width],
       }
     }
-    html2pdf(element, opt);
+    await html2pdf(element, opt);
+    // Show button after process
+    setIsHidden(false);
   }
 
   return (
     <Wrapper>
-      <Button type="button" onClick={handleClick}>Imprimir PDF</Button>
+      <Button type="button"
+      onClick={handleClick}
+      opacity={isHidden}
+      >Imprimir PDF</Button>
     </Wrapper>
   )
 }
