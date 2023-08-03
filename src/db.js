@@ -3,8 +3,8 @@ const data = {
   header: {
     name: "Nazareno",
     surname: "Aznar Altamiranda",
-    jobTitle: "Fullstack Developer (React, Node) | Salesforce Developer",
-    text: "I stay in constantly learning, ductile and focused in team work. I am looking forward to improve my developer skills with new challenging projects. My main focus is to improve and facilitate the access to technology and information to the population, creating intuitive interfaces and comfortable experiences for any user.",
+    jobTitle: "Certified Salesforce Developer",
+    text: "Salesforce Dev with knowledge in Frontend with React and Backend with Node. I stay in constantly learning, ductile and focused in team work. Looking for opportunities where I can take new challenges and offer my point of view",
   }, 
   contact: [
     {
@@ -17,10 +17,7 @@ const data = {
     },
   ],
   SocialNetworks: [
-    {
-      title:"Github",
-      content:"github.com/nazarenoalt"
-    },
+    
     {
       title:"Linkedin",
       content:"linkedin.com/in/nazarenoalt"
@@ -29,13 +26,25 @@ const data = {
       title:"Platzi",
       content:"platzi.com/p/nazarenoalt"
     },
+    {
+      title:"Github",
+      content:"github.com/nazarenoalt"
+    },
+    {
+      title:"Trailblazer",
+      content:"https://trailblazer.me/id/nazarenoalt"
+    },
   ],
-  hardSkills: ["React", "Javascript", "Typescript", "GraphQL", "Testing", "Webpack", "Babel","Git & Github","Salesforce", "Apex", "Lightning Web Components", "Aura Framework", "VisualForce"],
-  softSkills: ["Assertive communication", "Oratory", "Critical thinking", "Leadership"],
-  hobbies: ["Violoncello", "Running", "Cooking", "Finances & economy", "Cryptocurrencies"],
+  hardSkills: ["Apex", "Integrations", "Testing", "SOQL/SOSL", "Lightning Web Components", "Aura", "VisualForce", "Flows", "Processes", "Salesforce Admin", "Git & Github/Gitlab"],
   education: [
     {
-      title: "Frontend Development",
+      title: "Salesforce Academy",
+      institute:"Globant",
+      description:"3-month intensive academy where we prepare to take the Dev I certification",
+      date:"May 22 - July 22",
+    },
+    {
+      title: "Frontend and Backend Development",
       institute:"Platzi",
       description:"Web development school & Javascript School.",
       date:"2020 - 2022",
@@ -57,34 +66,28 @@ const data = {
       level:"Intermediate - B2",
     },
   ],
-  repository: [
+  certifications: [
     {
-      "title": "Bright Academy",
-      "content": "Education platform, with login system, posts, token authentication, made with Javascript vanill. - Javascript, HTML and CSS, consuming a rest API",
-      "link": "github.com/nazarenoalt/bright-academy",
-    },
-    {
-      "title": "E-Shop",
-      "content": "Ecommerce app - React.js, HTML and CSS, Webpack, Babel. Consuming a rest API.",
-      "link": "github.com/nazarenoalt/react-shop",
-    },
-    {
-      "title": "Crowdfunding Product Page",
-      "content": "Landing Page with crowdfunding interface. - Javascript, HTML and CSS, consuming a rest API. ",
-      "link": "github.com/nazarenoalt/crowdfunding-product-page",
-    },
-    {
-      "title": "This curriculum",
-      "content": "What you are viewing is a curriculum made completely with React, with the ability to convert to PDF.",
-      "link": "github.com/nazarenoalt/interactive-pricing-component",
+      "title": "Salesforce Platform Developer I",
+      "date": "August 2022",
+      "endDate": null
     },
   ],
   experience: [
     {
-      title: "Fullstack Developer (Salesforce)",
+      title: "Salesforce Developer",
       place: "Globant",
-      startDate: "Apr. 2022 - Present",
-      description: "I developed skills in customer service working directly with clients. I gained experience in both frontend and backend tools. Additionally, I played a key role in revamping the platform's design and mentoring. Finally, I effectively managed projects and collaborated with the team using the scrum methodology."
+      startDate: "April 2022",
+      endDate: null,
+      description: [
+        "Lead developer during refactoring of an application",
+        "Gained customer service skills by working directly with the client, offering solutions and providing support",
+        "Learned to administrate a Salesforce platform and provide security rules",
+        "Increased my knowledge in Apex, testing and integrations",
+        "Learned to create UI Interfaces with LWC, Aura and Visualforce",
+        "Learned Flows, Process and other automation tools",
+        "Trained new developers in the project",
+      ],
     },
   ],
 }
